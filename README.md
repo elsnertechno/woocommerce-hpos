@@ -17,8 +17,10 @@ $order = wc_get_order( $order_id );
 
 $order->update_meta_data( $meta_key, $meta_value ); 
 
-$order->add_meta_data( $meta_key_2, $meta_value ); 
+$order->add_meta_data( $meta_key, $meta_value ); 
 
-$order->delete_meta_data( $meta_key_3, $meta_value ); 
+$order->delete_meta_data( $meta_key, $meta_value ); 
 
-$order->get_meta( $meta_key, true ); $order->save();
+$order->get_meta( $meta_key, true ); 
+
+$order->save();
