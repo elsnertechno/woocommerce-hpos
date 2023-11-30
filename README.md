@@ -5,7 +5,7 @@ WooCommerce High-Performance Order Storage (HPOS) help to improve performance of
 update_post_meta( $order_id, $meta_key, $meta_value );
 add_post_meta( $order_id, $meta_key, $meta_value );
 delete_post_meta( $order_id, $meta_key, $meta_value );
-get_post_meta( $order_id, $meta_key, true);
+get_post_meta( $order_id, $meta_key, true); 
 
 // use
 $order = wc_get_order( $order_id );
